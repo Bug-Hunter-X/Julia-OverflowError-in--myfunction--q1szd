@@ -1,0 +1,3 @@
+# Julia OverflowError Example
+
+This repository demonstrates a common error in Julia programming: the `OverflowError`.  The error occurs when a numerical operation results in a value exceeding the representable range of the data type. This specific example shows how squaring a very large negative number can trigger an OverflowError. The solution shows how to handle this type of situation using `BigInt` to allow arbitrary precision.
